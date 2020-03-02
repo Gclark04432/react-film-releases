@@ -1,5 +1,6 @@
 ul.film-list{
   list-style: none;
+  padding: 60px;
 }
 
 ul.film-list :hover{
