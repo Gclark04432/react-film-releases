@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FilmList from '../Components/FilmList';
+import './FilmBox.css';
 
 class FilmBox extends Component{
 
@@ -38,7 +39,7 @@ class FilmBox extends Component{
   render(){
     return (
       <article>
-        <h1>FILMBOX</h1>
+        <h1 className="new-realease-heading">Upcoming releases in the UK</h1>
         <FilmList films={this.state.films}/>
       </article>
     )

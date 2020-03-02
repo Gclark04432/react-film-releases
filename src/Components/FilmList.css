@@ -1,0 +1,11 @@
+ul.film-list{
+  list-style: none;
+}
+
+ul.film-list :hover{
+  background-color: #C973AF;
+}
+
+a {
+  color: #5C2751;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import Film from './Film';
+import './FilmList.css';
 
 function FilmList({ films}){
 
@@ -14,12 +15,9 @@ const filmComponents = films.map(film => {
 })
 
 return(
-  <div>
-  <h1>FILM LIST</h1>
-  <ul>
+  <ul className="film-list">
   {filmComponents}
   </ul>
-  </div>
 )
 }
 
