@@ -39,7 +39,7 @@ class FilmBox extends Component{
     return (
       <article>
         <h1>FILMBOX</h1>
-        <FilmList/>
+        <FilmList films={this.state.films}/>
       </article>
     )
   }
