@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FilmList from '../Components/FilmList';
+import Footer from '../Components/Footer';
 import './FilmBox.css';
 
 class FilmBox extends Component{
@@ -41,7 +42,11 @@ class FilmBox extends Component{
       <article>
         <h1 className="new-realease-heading">Upcoming releases in the UK</h1>
         <FilmList films={this.state.films}/>
+        <section>
+          <Footer/>
+        </section>
       </article>
+
     )
   }
 
